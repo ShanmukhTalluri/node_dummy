@@ -1,0 +1,20 @@
+
+.navbar{
+    background-color:rgb(214, 16, 92);
+}
+img{
+    height:350px;
+}
+
+.main_menu{
+    background-color:rgb(235, 181, 186);
+}
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: azure;
+}
+@keyframes rot{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
